@@ -29,6 +29,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 }
 
 /* Solarized Cyan */
+.hljs-link,
 .hljs-string,
 .hljs-meta .hljs-meta-string,
 .hljs-doctag,
@@ -48,10 +49,13 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 /* Solarized Yellow */
 .hljs-attribute,
 .hljs-attr,
-.hljs-variable,
-.hljs-template-variable,
 .hljs-class .hljs-title,
 .hljs-type {
+  color: #73daca;
+}
+
+.hljs-variable,
+.hljs-template-variable {
   color: #73daca;
 }
 
@@ -63,8 +67,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 .hljs-meta,
 .hljs-meta .hljs-keyword,
 .hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-link {
+.hljs-selector-pseudo {
   color: #ff9e64;
 }
 
