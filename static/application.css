@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 /* since doctype is html, we need to set width and height because <body> doesn't inherit automatically */
 html {
 	height: 100%;
